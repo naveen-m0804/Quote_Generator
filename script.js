@@ -20,8 +20,6 @@ function getQuote() {
 
     quoteEl.innerText = `"${selected.text}"`;
     authorEl.innerText = `– ${selected.author}`;
-    //tweetBtn.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent('"' + selected.text + '" - ' + selected.author)}`;
-
     quoteBox.style.opacity = 1;
   }, 300);
 }
